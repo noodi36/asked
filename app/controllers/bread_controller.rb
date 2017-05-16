@@ -1,0 +1,2 @@
+class BreadController < ApplicationController
+end
