@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="inputBox">
+    <p>글 수정</p>
+    <form action="/asked/update/<%= @update_post.id %>" method="post">
+      <div class="form-group">
+        <input type="text" name="content" class="form-control" value="<%= @update_post.content %>"required>
+        <button type="submit" class="btn btn-default">수정하기</button>      
+      </div>
+    </form>
+  </div>

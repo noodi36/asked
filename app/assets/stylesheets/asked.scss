@@ -1,0 +1,71 @@
+// Place all the styles related to the asked controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.container {
+
+}
+
+.inputBox {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.inputBox p {
+    text-align: center;
+}
+
+.form-group button {
+    float: right;
+}
+.printContent {
+    margin-left: 30px;
+}
+
+.form-group {
+    margin-left: 20%;
+    width: 60%;
+}
+
+.printComment {
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.formComment {
+    margin-left: 30px;
+}
+
+
+
+input, textarea {
+  border: 0  !important;
+  outline: 0  !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid #efefef !important;
+}
+
+input:focus, textarea:focus {
+  
+  border-bottom: 2px solid #ab96ff !important;
+}
+
+
+input {
+}
+input.btn {
+  display: inline-block;
+  float: right;
+  float: right !important;
+  width: 100px !important;
+  margin-top: 10px !important;
+  border: 1px solid #ab96ff !important;
+  border-radius: 100px !important;
+  background-color: white !important;
+  color: #ab96ff;  
+}
+input.btn:hover {
+  background-color: #ab96ff !important;
+  color: white;
+}
